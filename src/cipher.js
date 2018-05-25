@@ -1,3 +1,4 @@
+
 /**
  * Window.cipher es un Objeto 
  * 1-CREAMOS DOS FUNCIONES DENTRO DEL OBJETO Window.cipher
@@ -5,12 +6,13 @@
  * 3.LA FUNCION DECODE PERMITE HACER EL DESCIFRADO DEL TEXTO
  */
 window.cipher = {
+
   
   //CREAMOS LA FUNCION ENCODE PARA CIFRAR EL TEXTO
   encode : (offset,string) =>{
-
+    debugger
+    offset = parseInt(offset);
     let codeCipher = " ";
-
     for (let i=0; i<string.length;i++){
       //Creamos la variable numberCodeAscci para obtener el código ASCII del texto ingresado
       let numberCodeAscci = string.charCodeAt(i);
@@ -59,6 +61,7 @@ window.cipher = {
   },
   //CREAMOS LA FUNCION DECODE PARA DESCIFRAR EL TEXTO
   decode : (offset,string) =>{
+    offset = parseInt(offset);
     let decodeCipher = " ";
     //CREAMOS UNA BUCLE FOR PARA PODER HACER UNA ITERACIÓN 
     for (let i = 0; i < string.length; i++) {
@@ -91,7 +94,7 @@ window.cipher = {
          * letra A como 0 es por eso que a 27 le restamos 1 para que quede 26.
          * 3.Con el String.fromCharCode obtenemos la letra del código ASCII
          */
-        let letterLower = String.fromCharCode((numberCodeAscci+97-45)%26+97);
+        let letterLower = String.fromCharCode((numberCodeAscci+97-offset-12)%26+97);
         //concatenamos la nueva palabra
         decodeCipher += letterLower;
               

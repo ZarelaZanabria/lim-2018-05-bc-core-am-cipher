@@ -1,3 +1,4 @@
+
 //DECLARAMOS TODAS LA VARIABLES 
 //=========================== 
 //Creamos una variable para obtener el texto de entrada del elemento textInput
