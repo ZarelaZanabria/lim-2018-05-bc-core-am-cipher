@@ -111,15 +111,17 @@ window.cipher = {
     return decodeCipher;
   },
 
-     createCipherWithOffset : (offset)=>{
-    return{
-      encode: (string)=>{
-      
-        
+   createCipherWithOffset : (offset)=>{
+      return{
+          encode: (string)=>{
+            cipher.encode(offset,string);
+                  
 
-      },
-      decode: (string)=>{
-      
+        },
+          decode: (string)=>{
+            cipher.decode(offset,string);         
+        }
+
       }
     }
     
