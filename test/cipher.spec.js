@@ -3,8 +3,8 @@ describe('cipher', () => {
   it('debería ser un objeto', () => {
     assert.equal(typeof cipher, 'object');
   });
-
-  describe('cipher.encode', () => {
+  
+    describe('cipher.encode', () => {
 
     it('debería ser una función', () => {
       assert.equal(typeof cipher.encode, 'function');
