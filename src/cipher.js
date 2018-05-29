@@ -7,12 +7,11 @@
  */
 window.cipher = {
 
-  
   //CREAMOS LA FUNCION ENCODE PARA CIFRAR EL TEXTO
   encode : (offset,string) =>{
-    
+       
     offset = parseInt(offset);
-    let codeCipher = " ";
+    let codeCipher = "";
     for (let i=0; i<string.length;i++){
       //Creamos la variable numberCodeAscci para obtener el código ASCII del texto ingresado
       let numberCodeAscci = string.charCodeAt(i);
@@ -62,7 +61,7 @@ window.cipher = {
   //CREAMOS LA FUNCION DECODE PARA DESCIFRAR EL TEXTO
   decode : (offset,string) =>{
     offset = parseInt(offset);
-    let decodeCipher = " ";
+    let decodeCipher = "";
     //CREAMOS UNA BUCLE FOR PARA PODER HACER UNA ITERACIÓN 
     for (let i = 0; i < string.length; i++) {
       //Creamos la variable numberCodeAscci para obtener el código ASCII del texto ingresado
@@ -102,7 +101,7 @@ window.cipher = {
       //CONDICIÓN PARA LOS ESPACIOS EN BLANCO
       else if (numberCodeAscci == 32) {
         //Creamos un variable espacio para poder igual el espacio en blanco a otro espacio en blanco 
-        let space = " ";
+        let space = "";
         //Y que este espacio se concatene en el texto.
         decodeCipher += space;
       }
@@ -112,7 +111,17 @@ window.cipher = {
     return decodeCipher;
   },
 
-  
+     createCipherWithOffset : (offset)=>{
+    return{
+      encode: (string)=>{
+      
+        
 
+      },
+      decode: (string)=>{
+      
+      }
+    }
+    
+  };
 
-};
