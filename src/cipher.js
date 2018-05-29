@@ -110,5 +110,15 @@ window.cipher = {
     }
     //AHORA VA RETORNAR LA PALABRA DESCIFRADA LA FUNCIÓN DECODE
     return decodeCipher;
+  },
+
+  createCipherWithOffset: (offset)=>{
+    return{
+      encode:(string)=>{},
+      decode:(string)=>{}
+    }
+ 
   }
+
+
 };
