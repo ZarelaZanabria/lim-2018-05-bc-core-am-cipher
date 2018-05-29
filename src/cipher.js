@@ -113,7 +113,10 @@ window.cipher = {
 
    createCipherWithOffset : (offset)=>{
      //Creamos el Objeto Resultado
-     let resultado = {
+     const resultado = {
+       /*1.Creamos las propiedades del Objeto encode y decode
+        2. La propiedad encode es un método para cifrar, entonces se debe crear una  funcion ENCODE. 
+        3. La propiedad DECODE es un método para descifrar, entonces se debe crear una  funcion DECODE. */
        encode : (string)=>{
          cipher.encode (offset,string);
        },       
