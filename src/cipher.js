@@ -10,7 +10,7 @@ window.cipher = {
   
   //CREAMOS LA FUNCION ENCODE PARA CIFRAR EL TEXTO
   encode : (offset,string) =>{
-    debugger
+    
     offset = parseInt(offset);
     let codeCipher = " ";
     for (let i=0; i<string.length;i++){
@@ -112,13 +112,7 @@ window.cipher = {
     return decodeCipher;
   },
 
-  createCipherWithOffset: (offset)=>{
-    return{
-      encode:(string)=>{},
-      decode:(string)=>{}
-    }
- 
-  }
+  
 
 
 };
