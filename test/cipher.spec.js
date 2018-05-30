@@ -39,10 +39,7 @@ describe('cipher', () => {
     });
 
 
-    it ('Deberia retornar que es una funcion con string',()=>{
-      assert.isString( cipher.createCipherWithOffset(), 'Si es un String');
-
-    });
+    
 
   });
 
