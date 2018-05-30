@@ -1,3 +1,7 @@
+form {
+    overflow: hidden;
+}
+
 #root {
     text-align: center;
 }

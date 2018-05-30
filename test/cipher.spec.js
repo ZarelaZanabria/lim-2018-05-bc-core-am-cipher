@@ -35,7 +35,9 @@ describe('cipher', () => {
 
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado',()=>{
         
-      assert.isObject( cipher.createCipherWithOffset.encode(string),'Es un objeto');
+      //assert.isObject(cipher.createCipherWithOffset.resultado,'es un objeto');
+      assert.isObject( cipher.createCipherWithOffset.re
+        , 'Es un objeto');
     });
 
   });
