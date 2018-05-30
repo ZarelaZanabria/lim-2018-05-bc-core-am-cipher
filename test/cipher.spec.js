@@ -37,9 +37,8 @@ describe('cipher', () => {
             
       assert.isObject( cipher.createCipherWithOffset(3) , 'Si es un objeto');
     });
-
-
     
+    it('debería ');
 
   });
 
