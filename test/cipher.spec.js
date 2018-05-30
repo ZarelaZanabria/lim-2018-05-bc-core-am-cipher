@@ -34,10 +34,14 @@ describe('cipher', () => {
     });
 
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado',()=>{
-        
-      //assert.isObject(cipher.createCipherWithOffset.resultado,'es un objeto');
-      assert.isObject( cipher.createCipherWithOffset.re
-        , 'Es un objeto');
+            
+      assert.isObject( cipher.createCipherWithOffset(3) , 'Si es un objeto');
+    });
+
+
+    it ('Deberia retornar que es una funcion con string',()=>{
+      assert.isString( cipher.createCipherWithOffset(), 'Si es un String');
+
     });
 
   });
