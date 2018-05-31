@@ -48,11 +48,14 @@ describe('cipher', () => {
 
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado',()=>{
             
-      assert.isObject( cipher.createCipherWithOffset(3) , 'Si es un objeto');
-      assert.property(cipher.createCipherWithOffset(33), cipher.createCipherWithOffset().encode(),'Tiene la proiedad encode' );
-      assert.equal(typeof cipher.createCipherWithOffset(33).encode('A'),'function');
-      assert.equal(typeof cipher.createCipherWithOffset(33).decode('H'),'function');
-
+      assert.isObject( cipher.createCipherWithOffset(33) , 'Si es un objeto');
+      //Validamos la propiedad ahora primero seleccionamos el objeto, propiedad
+      assert.property(cipher.createCipherWithOffset(33),'encode');
+      assert.property(cipher.createCipherWithOffset(33),'decode');
+      //Validar la funcion con la propiedad
+      assert.isFunction(cipher.createCipherWithOffset(33).encode);
+      assert.isFunction(cipher.createCipherWithOffset(33).decode);
+      
     });
     
     

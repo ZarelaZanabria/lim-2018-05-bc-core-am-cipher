@@ -1,6 +1,4 @@
 window.cipher = {
-
-
   encode: (offset, string) => {
     offset = parseInt(offset);
     let codeCipher = "";
