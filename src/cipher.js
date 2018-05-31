@@ -125,6 +125,7 @@ window.cipher = {
       }
     }
     return result;
+    
   }
 
 
