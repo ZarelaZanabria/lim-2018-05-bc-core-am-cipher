@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Cifrado Cesar</h1>
-      <form  name="textCifra">
-          <span > 
-              Cifrado Cesar
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100 ">
+        <form class="login100-form" >
+          <span class="login100-form-title p-b-55">
+            Cifrado Cesar
           </span>
-          <label for="">Posicion  </label>
-          <input type="number" id="position">
-          <button type="button" id="cifrar">Encriptar</button>
-          <button type="button" id="descifrar">Desencriptar</button>
-          <br>
-          <label>Ingresa  el texto </label>
-          <br>
-          <textarea id="textInput" rows="10" cols="50" placeholder="Ingresa un texto"></textarea>
-          <br>
-          <label>Texto Cifrado </label>
-          <br>
-          <textarea id = "textOutput"  rows="10" cols="50" placeholder="Texto cifrado"></textarea>
-      </form>
+          <div class="wrap-input100">
+            <textarea class = "input100" id="textInput" rows="10" cols="50" placeholder="Ingresa un texto"></textarea>
+            <span class = "focus-input100"></span>
+            <span class="symbol-input100">
+              <span class="lnr lnr-envelope"></span>
+            </span>            
+          </div>
+          <div class="wrap-input100">
+              <textarea class = "input100" id="textOutput" rows="10" cols="50" placeholder="Ingresa un texto"></textarea>
+              <span class = "focus-input100"></span>
+              <span class="symbol-input100">
+                <span class="lnr lnr-envelope"></span>
+              </span>            
+            </div>
+          <div class="wrap-input100">
+            <input class ='input100' placeholder="Ingresa una posicion" type="number" id="position">
+            <span class = "focus-input100"></span>
+            <span class="symbol-input100">
+              <span class="lnr lnr-envelope"></span>
+            </span>
+          </div>
+          <div class="container-login100-form-btn">
+            <button class="login100-form-btn" type="button" id="cifrar">
+              Cifrar               
+            </button>
+          </div>
+          <div class="container-login100-form-btn">
+              <button class="login100-form-btn" type="button" id="descifrar">
+                Descifrar               
+              </button>
+            </div>
+          
+
+        </form>
+
+      </div>
+
     </div>
-     <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+  </div>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

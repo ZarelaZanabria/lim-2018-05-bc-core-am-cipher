@@ -8,11 +8,11 @@
 window.cipher = {
 
   //CREAMOS LA FUNCION ENCODE PARA CIFRAR EL TEXTO
-  encode : (offset,string) =>{
-       
+  encode: (offset, string) => {
+
     offset = parseInt(offset);
     let codeCipher = "";
-    for (let i=0; i<string.length;i++){
+    for (let i = 0; i < string.length; i++) {
       //Creamos la variable numberCodeAscci para obtener el código ASCII del texto ingresado
       let numberCodeAscci = string.charCodeAt(i);
       //CONDICIÓN CUANDO LA LETRA ES MAYÚSCULA
@@ -20,21 +20,21 @@ window.cipher = {
        * 1-Ponemos una condición mayor que 65 y menor que 90 por que ahi se encuentran los
        * códigos ASCII de las letras mayúsculas.
        */
-      if (numberCodeAscci >=65 && numberCodeAscci <=90) {
+      if (numberCodeAscci >= 65 && numberCodeAscci <= 90) {
         /**
          * 1.Creamos la variable capitalLetter(LETRA MAYÚSCULA) 
          * 2.Primero obtenemos el codigo ASCII mediante la formula 
          * (numberCodeAscci-65+offset)%26+65 donde nos da un número
          * 3.Con el String.fromCharCode obtenemos la letra del código ASCII
          */
-        let capitalLetter = String.fromCharCode((numberCodeAscci-65+offset)%26+65);
+        let capitalLetter = String.fromCharCode((numberCodeAscci - 65 + offset) % 26 + 65);
         //Concatenamos para formar la palabra
         codeCipher += capitalLetter;
       }
       //CONDICIÓN CUANDO LA LETRA ES MINÚSCULA
       /* 1-Ponemos una condición mayor que 97 y menor que 122 por que ahi se encuentran los
        códigos ASCII de las letras ninúsculas. */
-      else if (numberCodeAscci>=97 && numberCodeAscci <=122){
+      else if (numberCodeAscci >= 97 && numberCodeAscci <= 122) {
         /**
          * 1.Creamos la variable letterLower(LETRA MINÚSCULAS)
          * 2.Primero obtenemos el codigo ASCII mediante la formula (numberCodeAscci-97+offset)%26+97 
@@ -45,12 +45,12 @@ window.cipher = {
          * 3.Con el String.fromCharCode obtenemos la letra del código ASCII
          */
         //condicion para minuscula
-        let letterLower = String.fromCharCode((numberCodeAscci-97+offset)%26+97);
+        let letterLower = String.fromCharCode((numberCodeAscci - 97 + offset) % 26 + 97);
         //Concatenamos para formar la palabra
-        codeCipher +=letterLower;
+        codeCipher += letterLower;
       }
       //CONDICIÓN PARA LOS ESPACIOS EN BLANCO
-        else if (numberCodeAscci ==32) {
+      else if (numberCodeAscci == 32) {
         let space = " ";
         codeCipher += space;
       }
@@ -59,7 +59,7 @@ window.cipher = {
     return codeCipher;
   },
   //CREAMOS LA FUNCION DECODE PARA DESCIFRAR EL TEXTO
-  decode : (offset,string) =>{
+  decode: (offset, string) => {
     offset = parseInt(offset);
     let decodeCipher = "";
     //CREAMOS UNA BUCLE FOR PARA PODER HACER UNA ITERACIÓN 
@@ -69,21 +69,21 @@ window.cipher = {
       //CONDICIÓN CUANDO LA LETRA ES MAYÚSCULA 
       /*1-Ponemos una condición mayor que 65 y menor que 90 por que ahi se encuentran los
         códigos ASCII de las letras mayúsculas. */
-      if (numberCodeAscci >=65 && numberCodeAscci <=90) {
+      if (numberCodeAscci >= 65 && numberCodeAscci <= 90) {
         /**
          * 1.Creamos la variable capitalLetter(LETRA MAYÚSCULA) 
          * 2.Primero obtenemos el codigo ASCII mediante la formula para descifrar
          * (numberCodeAscci+65-offset)%26+65 donde nos da un número.
          * 3.Con el String.fromCharCode obtenemos la letra del código ASCII
          */
-        let capitalLetter = String.fromCharCode((numberCodeAscci+65-offset)%26+65);
+        let capitalLetter = String.fromCharCode((numberCodeAscci + 65 - offset) % 26 + 65);
         //Concatenamos para formar la palabra
         decodeCipher += capitalLetter;
-      } 
-       //CONDICIÓN CUANDO LA LETRA ES MINÚSCULA
+      }
+      //CONDICIÓN CUANDO LA LETRA ES MINÚSCULA
       /* Ponemos una condición mayor que 97 y menor que 122 por que ahi se encuentran los
         códigos ASCII de las letras ninúsculas. */
-      else if (numberCodeAscci>=97 && numberCodeAscci<=122) {
+      else if (numberCodeAscci >= 97 && numberCodeAscci <= 122) {
         /**
          * 1.Creamos la variable letterLower(LETRA MINÚSCULAS)
          * 2.Primero obtenemos el codigo ASCII mediante la formula (numberCodeAscci-97+offset)%26+97 
@@ -93,41 +93,41 @@ window.cipher = {
          * letra A como 0 es por eso que a 27 le restamos 1 para que quede 26.
          * 3.Con el String.fromCharCode obtenemos la letra del código ASCII
          */
-        let letterLower = String.fromCharCode((numberCodeAscci+97-offset-12)%26+97);
+        let letterLower = String.fromCharCode((numberCodeAscci + 97 - offset - 12) % 26 + 97);
         //concatenamos la nueva palabra
         decodeCipher += letterLower;
-              
+
       }
       //CONDICIÓN PARA LOS ESPACIOS EN BLANCO
       else if (numberCodeAscci == 32) {
         //Creamos un variable espacio para poder igual el espacio en blanco a otro espacio en blanco 
-        let space = "";
+        let space = " ";
         //Y que este espacio se concatene en el texto.
         decodeCipher += space;
       }
-      
+
     }
     //AHORA VA RETORNAR LA PALABRA DESCIFRADA LA FUNCIÓN DECODE
     return decodeCipher;
   },
 
-  createCipherWithOffset : (offset)=>{
+  createCipherWithOffset: (offset) => {
     //Creo un Objeto resulto
-    let result ={
+    let result = {
       //Método  encode 
-      encode:(string)=>{
-        return cipher.encode(offset,string);
+      encode: (string) => {
+        return cipher.encode(offset, string);
 
       },
       //Método decode 
-      decode:(string)=>{
-        return cipher.decode(offset,string);
+      decode: (string) => {
+        return cipher.decode(offset, string);
       }
     }
     return result;
   }
 
-     
+
 };
 
 //console.log(cipher.createCipherWithOffset(3))

@@ -1,3 +1,4 @@
+
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -7,25 +8,101 @@
 body, html {
 	height: 100%;
     font-family: Poppins-Regular, sans-serif;
-    background-image: url("https://goo.gl/images/BS3wLX");
-}
-
-
-
-form {
-    overflow: hidden;
-}
-
-#root {
-    text-align: center;
-}
-
-label{
-    text-align: center;
+   /* background-image: url('../img/fondo.jpg');*/
     
 }
 
-textarea{
-    text-align: center;
 
-}
+
+
+
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+.container-login100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    /*Creamos el fondo */
+    background: #0250c5;
+    background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+    background: -o-linear-gradient(bottom, #0250c5, #d43f8d);
+    background: -moz-linear-gradient(bottom, #0250c5, #d43f8d);
+    background: linear-gradient(bottom, #0250c5, #d43f8d);
+    position: relative;
+    z-index: 1;
+ 
+  }
+/*Ahora incluimos el fondo del circulo*/
+  .container-login100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('../img/img-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*Ahora ponemos el color a la caja donde estan
+  la caja del formulario.*/
+  .wrap-login100 {
+    width: 550px;
+    height: 500px;
+    background: #daeeeb;
+    border-radius: 3px;
+    overflow: hidden;
+    
+  }
+
+ /*Modificamos la caja donde esta el titulo Cifrado Cesar*/
+
+ .login100-form-title {
+    font-family: Raleway-Black;
+    font-size: 40px;
+    color: #333333;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;  
+    width: 100%;
+    display: block;
+    
+  }
+/*Modificamos la caja donde estan las cajas de ingresar texto*/
+
+
+
+ 
+
+ 
+
+
+
+
+  
+
+
+/*//////////////////////////////////////////////////////////////////
+[ responsive ]*/
+
+@media (max-width: 480px) {
+    .wrap-login100 {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
