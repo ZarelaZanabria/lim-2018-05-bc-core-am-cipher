@@ -7,7 +7,7 @@
 
 body, html {
 	height: 100%;
-    font-family: Poppins-Regular, sans-serif;
+  font-family: Poppins-Regular, sans-serif;
        
 }
 
@@ -28,14 +28,14 @@ body, html {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    /*Creamos el fondo */
+    /*Creamos el fondo 
     background: #0250c5;
     background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
     background: -o-linear-gradient(bottom, #0250c5, #d43f8d);
     background: -moz-linear-gradient(bottom, #0250c5, #d43f8d);
     background: linear-gradient(bottom, #0250c5, #d43f8d);
     position: relative;
-    z-index: 1;
+    z-index: 1;*/
  
   }
 /*Ahora incluimos el fondo del circulo*/
@@ -57,13 +57,15 @@ body, html {
   /*Ahora ponemos el color a la caja donde estan
   la caja del formulario.*/
   .wrap-login100 {
-    width: 450px;
-    height: 500px;
+    width: 100%;
     background: #daeeeb;
     border-radius: 3px;
     overflow: hidden;
+    justify-content:center
     
   }
+
+
 
  /*Modificamos la caja donde esta el titulo Cifrado Cesar*/
 
@@ -84,7 +86,7 @@ body, html {
 
 
 /*------------------------------------------------------------------
-[ Button ]*/
+[ Button ]
 .container-login100-form-btn {
     width: 100%;
     display: -webkit-box;
@@ -130,21 +132,6 @@ body, html {
     background-position: center;
   }
   
-
- 
-
+*/
 
 
-
-  
-
-
-/*//////////////////////////////////////////////////////////////////
-[ responsive ]*/
-
-@media (max-width: 480px) {
-    .wrap-login100 {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }

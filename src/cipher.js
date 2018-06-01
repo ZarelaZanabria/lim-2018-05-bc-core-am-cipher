@@ -4,7 +4,7 @@ window.cipher = {
     let codeCipher = "";
     for (let i = 0; i < string.length; i++) {
       let numberCodeAscci = string.charCodeAt(i);
-      
+
       if (numberCodeAscci >= 65 && numberCodeAscci <= 90) {
         let capitalLetter = String.fromCharCode((numberCodeAscci - 65 + offset) % 26 + 65);
         codeCipher += capitalLetter;
@@ -18,9 +18,9 @@ window.cipher = {
         codeCipher += space;
       }
     }
-   return codeCipher;
+    return codeCipher;
   },
- 
+
   decode: (offset, string) => {
     offset = parseInt(offset);
     let decodeCipher = "";
@@ -44,15 +44,15 @@ window.cipher = {
   },
 
   createCipherWithOffset: (offset) => {
-     let result = {
+    let result = {
       //Método  encode 
       encode: (string) => cipher.encode(offset, string),
       //Método decode 
       decode: (string) => cipher.decode(offset, string)
-      
+
     }
     return result;
-    
+
   }
 
 

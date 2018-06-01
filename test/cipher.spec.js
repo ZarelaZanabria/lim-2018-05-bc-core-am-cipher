@@ -17,10 +17,12 @@ describe('cipher', () => {
 
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFGhijklmnopqrstuvwxyzabdefg" para "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz" con offest 33',()=>{
       assert.equal(cipher.encode(33,'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz'),'HIJKLMNOPQRSTUVWXYZABCDEFGhijklmnopqrstuvwxyzabdefg');
-    })
-    it('debería retornar "H I J KLM NOP QRSTU VWXYZABCDEFGhij klmnop qrstuvwxyza bdefg" para "A B C DEF GHI JKLMN OPQRSTUVWXYZabc defghi jklmnopqrst uwxyz" con offest 33',()=>{
-      assert.equal(cipher.encode(33,'A B C DEF GHI JKLMN OPQRSTUVWXYZabc defghi jklmnopqrst uwxyz'),'H I J KLM NOP QRSTU VWXYZABCDEFGhij klmnop qrstuvwxyza bdefg');
-    })
+    });
+
+    it('Validar espacios y no reconozca caracteres',()=>{
+      assert.equal(cipher.encode(33,'a Ajjjk?bb kss'),'h Hqqqrii rzz');
+    });
+
   });
 
   describe('cipher.decode', () => {
@@ -35,9 +37,10 @@ describe('cipher', () => {
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz" para "HIJKLMNOPQRSTUVWXYZABCDEFGhijklmnopqrstuvwxyzabdefg" con offest 33',()=>{
       assert.equal(cipher.decode(33,'HIJKLMNOPQRSTUVWXYZABCDEFGhijklmnopqrstuvwxyzabdefg'),'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuwxyz');
     });
-    it('debería retornar "A B C DEF GHI JKLMN OPQRSTUVWXYZabc defghi jklmnopqrst uwxyz" para "H I J KLM NOP QRSTU VWXYZABCDEFGhij klmnop qrstuvwxyza bdefg" con offest 33',()=>{
-      assert.equal(cipher.decode(33,'H I J KLM NOP QRSTU VWXYZABCDEFGhij klmnop qrstuvwxyza bdefg'),'A B C DEF GHI JKLMN OPQRSTUVWXYZabc defghi jklmnopqrst uwxyz');
+    it('33',()=>{
+      assert.equal(cipher.decode(33,'a B i?'),'t U b');
     });
+
   });
 
   describe('cipher.createCipherWithOffset', () => {
@@ -46,9 +49,9 @@ describe('cipher', () => {
       assert.equal(typeof cipher.createCipherWithOffset, 'function');
     });
 
-    it('debería ser ', () => {
-      assert.equal(cipher.createCipherWithOffset(33).encode('a'), 'h' );
-      assert.equal(cipher.createCipherWithOffset(33).decode('h'), 'a' );
+    it('Deberia retornar "A a b" para "H h i" ', () => {
+      assert.equal(cipher.createCipherWithOffset(33).encode('A B C JKS kd d'), 'H I J QRZ rk k' );
+      assert.equal(cipher.createCipherWithOffset(33).decode('H I J QRZ rk k'), 'A B C JKS kd d' );
     });
 
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado',()=>{
