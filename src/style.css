@@ -34,3 +34,19 @@ body, html {
   position: relative;
   z-index: 1;
 }
+
+/*Insertando un fondo */
+.contenedor-01::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../img/img-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
