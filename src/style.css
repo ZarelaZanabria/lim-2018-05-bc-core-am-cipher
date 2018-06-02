@@ -50,3 +50,12 @@ body, html {
   background-size: cover;
   background-position: center;
 }
+
+.contenedor-02 {
+  width: 450px;
+  background:#fdded3;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+
