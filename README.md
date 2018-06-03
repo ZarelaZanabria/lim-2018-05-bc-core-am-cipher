@@ -17,7 +17,7 @@ Actividades a realizar para el **desarrollo del producto**:
 
 Lo primero que se hizo es identificar las tareas principales para poder realizar el proyecto.
 
-![sprint](https://goo.gl/images/ftFrEy)
+![sprint](https://4bce1e11-a-62cb3a1a-s-sites.googlegroups.com/site/servipv1/product-backlog-board/product%20backlog%20board.jpg?attachauth=ANoY7cpR0w9h1yr9MdC3CzPPjTOC0zand9GuJc6-1hJUQSlsJhGXojnQ7bejWDbHToeid6x_1D-L64RNhnZvX3eujECCBd60K_fXLQ4vWz02WOdr4M6UYWa-KNLRwsMToOcOhUgqYHhHh2hy1RDxBpLg0cKko2cUVCSBEXHwDuYdpIny9lkxt8KCy5J4oKTyaPdDERIc-r0JjEyB17wMxF5pkvokLKE48gTSuNfyLlcwCg0YXdER4UDx8V0XpDFMYxL64i9Wmm8D&attredirects=0)
 
 ![stack Overflow](https://drive.google.com/file/d/1vgtTiE6YqOyPBGlsX123NS1TjmS6cdhS/view)
 
