@@ -17,7 +17,7 @@ Actividades a realizar para el **desarrollo del producto**:
 
 Lo primero que se hizo es identificar las tareas principales para poder realizar el proyecto.
 
-![sprint](http://i.gyazo.com/b61bd68495cc4612fdd0a884e2658516.png)
+![sprint](http://lh6.ggpht.com/-nOc6hbI6cV0/UGisN3oWZrI/AAAAAAAAAew/RMyuc9w1jtM/Slide30%25255B8%25255D.png?imgmax=800)
 
 
 
