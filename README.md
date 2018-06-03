@@ -15,6 +15,10 @@ Actividades a realizar para el **desarrollo del producto**:
 * Lo primero que se realizo es identificar el problema: **Cómo se lograra implementar un aplicativo web mediante la metodología SCRUM que permita cifrar y descifrar textos para organizar un fiesta de cumpleaños sorpresa?**
 > Ahora es importante determinar los objetivos según el problema, identificando los requerimientos del usuario. 
 
+Lo primero que se hizo es identificar las tareas principales para poder realizar el proyecto.
+
+![sprint](https://drive.google.com/drive/u/1/my-drive)
+
 ## Identifiación de los Objetivos.
 1. Identificar los requerimientos del usuario mediante el uso de entrevistas o encuestas.
 2. Diseñar la interfaz gráfica del usuario , para cifrar y descifrar textos.
@@ -33,9 +37,6 @@ teniendo en cuenta el número de posición del cifrado. Entonces el problema se 
 
 ## Realización del Prototipo.
 Se diseño un prototipo de cómo debe ser el aplicativo de Cifrado y Descifrado según los requerimientos del usuario, y a la vez como debe Visualizarse en un móvil. Se pudo presentar al prototipo al usuario permitiendo mejorar el diseño para que pueda ser codificado.
-
-
-![caeser-cipher](https://drive.google.com/drive/u/1/my-drive)
 
 # Codificación
 Una vez realizado el prototipo del producto final, se llevó acabo la fase de codificación del aplicativo utilizando el lenguaje de JavaScritps, HTML y CSS.
