@@ -46,6 +46,18 @@ Una vez realizado el prototipo del producto final, se llevó acabo la fase de co
 # Testing Unitario
 Para esta fase se relizo  las pruebas unitarias del código, mediante el uso de Framework como **CHAI, MOCHA**, permitiendo mejorar la codificacion e interación con el usuario. 
 
+![Testing Unitarios](http://developmentnow.com/wp-content/uploads/2015/02/Screen-Shot-2015-02-05-at-10.17.09-AM.png)
+
+Para poder ver la funcionalidad del proyecto se realizo los Testing Unitarios por los siguientes motivos: 
+
++ Facilita los cambios en la aplicación ya que las pruebas nos asegurarán que los nuevos cambios no han introducido errores.
++ Simplifica la integración gracias a que permiten llegar a la fase de integración con un grado alto de seguridad de que el código está funcionando correctamente. De esta manera se facilitan las pruebas de integración.
++ Documenta el código. Las propias pruebas son un libro abierto sobre el funcionamiento de la función y los resultados esperados.
++ Separación de la interfaz y la implementación. Dado que la única interacción entre los casos de prueba y las unidades bajo prueba son las interfaces de estas últimas, se puede cambiar cualquiera de los dos sin afectar al otro.
++ Los errores están más acotados y son más fáciles de localizar: dado que tenemos preparado un test para cada función que puede desenmascararlo.
++ Aunque pueda parecer mentira, los test unitarios aceleran el desarrollo de nuestro software debido a que.
+Ayuda a tener un código desacoplado gracias a que cada una de nuestras funciones está pensada para devolver un resultado que podrá ser testeado.
+
 >**Nota**: Las 4 fases del proceso de desarrollo del aplicativo de Cifrar y Descifrar se repitieron con dos Sprint. Cada uno con un tiempo de duración de 7 días. También se pudo hacer pruebas con los usuarios. Mejorando la parte de diseño.
 
 Final.!!
