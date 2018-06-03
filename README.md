@@ -37,7 +37,8 @@ teniendo en cuenta el número de posición del cifrado. Entonces el problema se 
 + Se requiere otro textara donde muestre el resultado.
 + Por último se requiere de botones donde muestre al usuario que acción desee realizar el de cifrar o descifrar.
 
->Según los requerimientos del usuario se diseño en una sola pantalla el aplicativo para poder cifrar y descifrar, debido que el usuario tiene abierto varios aplicativos en el celular y lo que se desea es que sola una pantalla permita hacer varias cosas. Por tal motivo se diseño todo en una sola pantalla. 
+Según los requerimientos del usuario se diseño en una sola pantalla el aplicativo para poder cifrar y descifrar, debido que el usuario tiene abierto varios aplicativos en el celular y lo que se desea es que sola una pantalla permita hacer varias cosas. Por tal motivo se diseño todo en una sola pantalla. 
+--------------------------------------------------------------------------------------------------------------------
 
 ## Realización del Prototipo.
 Se diseño un prototipo de cómo debe ser el aplicativo de Cifrado y Descifrado según los requerimientos del usuario, y a la vez como debe Visualizarse en un móvil. Se pudo presentar al prototipo al usuario permitiendo mejorar el diseño para que pueda ser codificado.
