@@ -40,6 +40,7 @@ teniendo en cuenta el número de posición del cifrado. Entonces el problema se 
 ## Realización del Prototipo.
 Se diseño un prototipo de cómo debe ser el aplicativo de Cifrado y Descifrado según los requerimientos del usuario, y a la vez como debe Visualizarse en un móvil. Se pudo presentar al prototipo al usuario permitiendo mejorar el diseño para que pueda ser codificado.
 
+![Prototipo ](http://blog.makesys.com.br/wp-content/uploads/2013/08/shutterstock_146100410.jpg)
 # Codificación
 Una vez realizado el prototipo del producto final, se llevó acabo la fase de codificación del aplicativo utilizando el lenguaje de JavaScritps, HTML y CSS.
 # Testing Unitario
