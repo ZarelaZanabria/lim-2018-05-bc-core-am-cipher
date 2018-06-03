@@ -19,6 +19,7 @@ Lo primero que se hizo es identificar las tareas principales para poder realizar
 
 ![sprint](https://drive.google.com/file/d/1vgtTiE6YqOyPBGlsX123NS1TjmS6cdhS/view?usp=sharing)
 
+
 ## Identifiación de los Objetivos.
 1. Identificar los requerimientos del usuario mediante el uso de entrevistas o encuestas.
 2. Diseñar la interfaz gráfica del usuario , para cifrar y descifrar textos.
