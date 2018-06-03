@@ -17,7 +17,7 @@ Actividades a realizar para el **desarrollo del producto**:
 
 Lo primero que se hizo es identificar las tareas principales para poder realizar el proyecto.
 
-![sprint](https://drive.google.com/file/d/1vgtTiE6YqOyPBGlsX123NS1TjmS6cdhS/view)
+![sprint](https://www.google.com.pe/search?q=sprint+planning+scrum+reales&tbm=isch&tbs=rimg:CSXAbSBxP2NXIjgDVgRYH-yyxlr2t6DG89UUnOFtOS4VZPjs-BAr75P_1SRVWO1snyHDJeH9uPEOnSuiNAkHiYFHxRCoSCQNWBFgf7LLGEbdkJJIrQaEVKhIJWva3oMbz1RQRYbcntvqC6OIqEgmc4W05LhVk-BGFAFy9O4hR-yoSCez4ECvvk_19JEc1aAZSXNBV-KhIJFVY7WyfIcMkR-aT0ffQh4vwqEgl4f248Q6dK6BEG-FxVmt9lTCoSCY0CQeJgUfFEEXirWVz4mvIf&tbo=u&sa=X&ved=2ahUKEwienfWtzLjbAhUnq1kKHcKWCmgQ9C96BAgBEBg&biw=1366&bih=637&dpr=1#imgrc=jQJB4mBR8URc9M:)
 
 ![stack Overflow](https://drive.google.com/file/d/1vgtTiE6YqOyPBGlsX123NS1TjmS6cdhS/view)
 
