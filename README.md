@@ -15,32 +15,27 @@ Actividades a realizar para el **desarrollo del producto**:
 + Desarrollo de la codificacion del producto.
 + Realización de pruebas.
 
-
 ##Identificación del problema
-* Lo primero que se realizo es identificar el problema: **¿Cómo se lograra implementar un aplicativo web mediante la metodología SCRUM que permita cifrar y descifrar textos para organizar un fiesta de cumpleaños sorpresa?**
- 
- > Ahora es importante determinar los objetivos según el problema, identificando los requerimientos del usuario. 
-
- ##Identifiación de los Objetivos.
-  1. Identificar los requerimientos del usuario mediante el uso de entrevistas o encuestas.
-  2. Diseñar la interfaz gráfica del usuario , para cifrar y descifrar textos.
-  3. Codificar y realizar las pruebas del aplicativo web, mediante el uso de Framework para validar la codificacion 
-     del lenguaje HTML, JavaScritps y los DOM.  
-
+*Lo primero que se realizo es identificar el problema: **¿Cómo se lograra implementar un aplicativo web mediante la metodología SCRUM que permita cifrar y descifrar textos para organizar un fiesta de cumpleaños sorpresa?**
+> Ahora es importante determinar los objetivos según el problema, identificando los requerimientos del usuario. 
+##Identifiación de los Objetivos.
+1. Identificar los requerimientos del usuario mediante el uso de entrevistas o encuestas.
+2. Diseñar la interfaz gráfica del usuario , para cifrar y descifrar textos.
+3. Codificar y realizar las pruebas del aplicativo web, mediante el uso de Framework para validar la codificacion 
+del lenguaje HTML, JavaScritps y los DOM.  
 
 #Diseño
 
 ##Identificacion de requerimientos.
-  *  El usuario debe cifrar un texto en donde este debe enviarlo a otro, y el usuario que lo recibe debe descifrarlo, 
-     teniendo en cuenta el número de posición del cifrado. Entonces el problema se presenta en como el usuario de va a descifrar el texto va saber cuál es posición que debe ser cifrar. 
-
-     + Para ello se necesia un text donde se ingresa el número de posición tanto para cifrar como para descifrar.
-     + Se necesita un textarea donde se debe ingresar el texto a Cifrar o Descifrar.
-     + Se requiere otro textara donde muestre el resultado.
-     + Por último se requiere de botones donde muestre al usuario que accion desee realizar el de cifrar o descifrar.
+*  El usuario debe cifrar un texto en donde este debe enviarlo a otro, y el usuario que lo recibe debe descifrarlo, 
+teniendo en cuenta el número de posición del cifrado. Entonces el problema se presenta en como el usuario de va a descifrar el texto va saber cuál es posición que debe ser cifrar. 
++ Para ello se necesia un text donde se ingresa el número de posición tanto para cifrar como para descifrar.
++ Se necesita un textarea donde se debe ingresar el texto a Cifrar o Descifrar.
++ Se requiere otro textara donde muestre el resultado.
++ Por último se requiere de botones donde muestre al usuario que accion desee realizar el de cifrar o descifrar.
 
 ##Realización del Prototipo.
- Se diseño un prototipo de como debe ser el aplicativo de Cifrado y Descifrado según los requerimientos del usuario, y a la vez como debe Visualizarse en un móvil. Se pudo presentar al prototipo al usuario permitiendo mejorar el diseño para que pueda ser codificado.
+Se diseño un prototipo de como debe ser el aplicativo de Cifrado y Descifrado según los requerimientos del usuario, y a la vez como debe Visualizarse en un móvil. Se pudo presentar al prototipo al usuario permitiendo mejorar el diseño para que pueda ser codificado.
 
 #Codificación 
 Una vez recepcionado el prototipo del producto final, se llevo acabo la fase de codificación del aplicativo utilizando el lenguaje de JavaScritps, HTML y CSS.
