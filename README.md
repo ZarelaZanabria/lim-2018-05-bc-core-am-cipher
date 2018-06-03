@@ -21,7 +21,7 @@ Actividades a realizar para el **desarrollo del producto**:
  
  > Ahora es importante determinar los objetivos según el problema, identificando los requerimientos del usuario. 
 
- ###Identifiación de los Objetivos.
+ ##Identifiación de los Objetivos.
   1. Identificar los requerimientos del usuario mediante el uso de entrevistas o encuestas.
   2. Diseñar la interfaz gráfica del usuario , para cifrar y descifrar textos.
   3. Codificar y realizar las pruebas del aplicativo web, mediante el uso de Framework para validar la codificacion 
@@ -29,7 +29,8 @@ Actividades a realizar para el **desarrollo del producto**:
 
 
 ## Identificacion de requerimientos.
-    El usuario debe cifrar un texto en donde este debe enviarlo a otro, y el usuario que lo recibe debe descifrarlo, teniendo en cuenta el número de posición del cifrado. Entonces el problema se presenta en como el usuario de va a descifrar el texto va saber cuál es posición que debe ser cifrar. 
+  *  El usuario debe cifrar un texto en donde este debe enviarlo a otro, y el usuario que lo recibe debe descifrarlo, 
+     teniendo en cuenta el número de posición del cifrado. Entonces el problema se presenta en como el usuario de va a descifrar el texto va saber cuál es posición que debe ser cifrar. 
 
 
 ## Consideraciones generales
