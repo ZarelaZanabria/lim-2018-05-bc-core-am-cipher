@@ -66,5 +66,5 @@ Ayuda a tener un código desacoplado gracias a que cada una de nuestras funcione
 
 >**Nota**: Las 4 fases del proceso de desarrollo del aplicativo de Cifrar y Descifrar se repitieron con dos Sprint. Cada uno con un tiempo de duración de 7 días. También se pudo hacer pruebas con los usuarios. Mejorando la parte de diseño.
 
-Final.!!
+FINAL!!
 ------------------------------------------------------------------------------------------------------------------------
