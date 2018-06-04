@@ -63,6 +63,7 @@ Para poder ver la funcionalidad del proyecto se realizo los Testing Unitarios po
 + Los errores están más acotados y son más fáciles de localizar: dado que tenemos preparado un test para cada función que puede desenmascararlo.
 + Aunque pueda parecer mentira, los test unitarios aceleran el desarrollo de nuestro software debido a que.
 Ayuda a tener un código desacoplado gracias a que cada una de nuestras funciones está pensada para devolver un resultado que podrá ser testeado.
+------------------------------------------------------------------------------------------------------------------------
 
 >**Nota**: Las 4 fases del proceso de desarrollo del aplicativo de Cifrar y Descifrar se repitieron con dos Sprint. Cada uno con un tiempo de duración de 7 días. También se pudo hacer pruebas con los usuarios. Mejorando la parte de diseño.
 
