@@ -17,7 +17,7 @@ Actividades a realizar para el **desarrollo del producto**:
 
 Lo primero que se hizo es identificar las tareas principales para poder realizar el proyecto.
 
-![sprint](http://lh6.ggpht.com/-nOc6hbI6cV0/UGisN3oWZrI/AAAAAAAAAew/RMyuc9w1jtM/Slide30%25255B8%25255D.png?imgmax=800)
+![sprint](https://image.ibb.co/iuK8v8/20180601_112848_1.jpg)
 
 
 
@@ -44,13 +44,15 @@ Según los requerimientos del usuario se diseño en una sola pantalla el aplicat
 Se diseño un prototipo de cómo debe ser el aplicativo de Cifrado y Descifrado según los requerimientos del usuario, y a la vez como debe Visualizarse en un móvil. Se pudo presentar al prototipo al usuario permitiendo mejorar el diseño para que pueda ser codificado.
 
 
-![Prototipo ](http://blog.makesys.com.br/wp-content/uploads/2013/08/shutterstock_146100410.jpg)
+![Prototipo ](https://image.ibb.co/gFtwho/20180604_080050_1.jpg)
 # Codificación
 Una vez realizado el prototipo del producto final, se llevó acabo la fase de codificación del aplicativo utilizando el lenguaje de JavaScritps, HTML y CSS.
+
+![Codificacion](https://preview.ibb.co/cXfOv8/20180604_080106_1.jpg)
 # Testing Unitario
 Para esta fase se relizo  las pruebas unitarias del código, mediante el uso de Framework como **CHAI, MOCHA**, permitiendo mejorar la codificacion e interación con el usuario. 
 
-![Testing Unitarios](http://developmentnow.com/wp-content/uploads/2015/02/Screen-Shot-2015-02-05-at-10.17.09-AM.png)
+![Testing Unitarios](https://image.ibb.co/irDXoT/Pruebas.png)
 
 Para poder ver la funcionalidad del proyecto se realizo los Testing Unitarios por los siguientes motivos: 
 
